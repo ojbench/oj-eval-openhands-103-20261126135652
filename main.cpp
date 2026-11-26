@@ -1,4 +1,6 @@
 #include <iostream>
+// Neutralize OJ git URL prepending (the OJ prepends the git URL to game.h)
+#define https /* */
 #include "game.h"
 
 void loadCards(Pile& draw_pile) {
